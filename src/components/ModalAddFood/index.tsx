@@ -9,7 +9,7 @@ import Input from '../Input';
 interface ModalAddFoodProps{
   isOpen: boolean, 
   setIsOpen: ()=>void,
-  handleAddFood:(data:FormEvent)=>void 
+  handleAddFood:(data:FormEvent)=>Promise<void> 
 }
 
 
